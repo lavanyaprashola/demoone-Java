@@ -10,7 +10,7 @@ spring:
       hibernate:
         default_schema: randomquotes
   datasource:
-    url: ${POSTGRES_URL:jdbc:postgresql://localhost:5432/postgres}
+    url: ${POSTGRES_URL:jdbc:postgresql://localhost:8111/postgres}
     username: ${POSTGRES_USER:postgres}
     password: ${POSTGRES_PASS:docker}
   flyway:
