@@ -3,7 +3,7 @@
 # additional configuration.
 
 server:
-  port : ${PORT:5555}
+  port : ${PORT:8111}
 
 spring:
   profiles:
